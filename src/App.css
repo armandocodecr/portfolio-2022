@@ -155,6 +155,7 @@ main{
     /* Componente Banner */
 
     .container-home{
+        height: 80vh;
         text-align: center;
     }
 
