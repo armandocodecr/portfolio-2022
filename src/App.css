@@ -6,7 +6,7 @@
 
 body{
     width: 100%;
-    height: 300vh;
+    height: 100%;
     background: rgb(1,35,52) !important;
     background: linear-gradient(45deg, rgba(1,35,52,1) 9%, rgba(2,0,36,1) 68%, rgba(0,0,0,1) 80%) !important;
     font-family: 'Roboto Condensed', sans-serif !important;
@@ -58,7 +58,7 @@ main{
 
 /* Componente About */
 
-.container-about{
+.containers{
 
     padding: 100px 200px 0 200px;
     width: 100%;
@@ -68,13 +68,13 @@ main{
     border-radius: 50px;
 }
 
-.text-section{
+.containers .text-section{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.container-about h1{
+.containers h1{
     padding-top: 100px;
     display: block;
 }
@@ -92,6 +92,57 @@ main{
 .container-about .animation{
     width: 80%;
 }
+
+
+/* Componente Proyects */
+
+.containers{
+    padding: 100px 200px 0 200px;
+    width: 100%;
+}
+
+.position {
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    padding: 10px 1rem 0 0 !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0.25rem 0.75rem 0.25rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #00000066;
+    backdrop-filter: saturate(180%) blur(10px);
+    gap: 0.25rem;
+  }
+
+  /* Componente ProjectCard */
+
+  
+
+  .technologys-list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+  .technologys-list p{
+    width: 50%;
+    border-bottom: solid 1px #ffffff;
+  }
+
+  #btn_close{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #btn_close:hover{
+    color: rgb(172, 14, 14);
+  }
 
 
 /* SECCION RESPONSIVE */
@@ -114,7 +165,7 @@ main{
 
    /* Componente About */
 
-   .container-about h1{
+   .containers h1{
      font-size: 55px;
     }  
     
@@ -131,6 +182,20 @@ main{
     .container-about p{
         top: 0;
     }
+
+    /* Componente ProjectCard */
+
+    #container-modal-body{
+        text-align: center;
+        align-items: center;
+    }
+
+    .technologys-list{
+        text-align: center;
+        align-items: center;
+    }
+
+
 }
 
 
@@ -138,12 +203,12 @@ main{
 
     /* Componente About */
 
-    .container-about{
+    .containers{
         padding: 100px 100px 0 100px;
         width: 100%;
     }
 
-    .container-about .container-about-info{
+    .container-about .container-sections{
         margin-top: 20px;
     }
 
@@ -178,7 +243,7 @@ main{
 
     /* Componente About */
 
-    .container-about{
+    .containers{
         padding: 100px 50px 0 50px;
         width: 100%;
     }
@@ -222,4 +287,8 @@ main{
         width: 200px;
     } 
 
+
+    /* Compontente ProjectCard */
+
+    
 }

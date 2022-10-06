@@ -7,7 +7,7 @@ export const About = () => {
 
     return (
         <>
-            <section className="container-about">
+            <section className="container-about containers">
                 <hr />
                 <div className="text-section">
                     <Text
@@ -22,7 +22,7 @@ export const About = () => {
                     </Text>
                 </div>
 
-                <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-about-info'>
+                <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-sections'>
 
                     <Grid xs={12} sm={6} css={{ position: 'relative' }}>
                         <Text css={{ position: 'relative', top: '30%' }}>
