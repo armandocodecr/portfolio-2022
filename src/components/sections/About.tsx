@@ -7,7 +7,7 @@ export const About = () => {
 
     return (
         <>
-            <section className="container-about containers">
+            <section className="container-about containers" id="about">
                 <hr />
                 <div className="text-section">
                     <Text

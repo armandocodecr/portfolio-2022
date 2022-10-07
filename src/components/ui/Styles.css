@@ -26,19 +26,24 @@ nav img{
 
 .btn-nav a{
     font-size: 1rem;
-    border: 2px solid transparent;
-    border-radius: 5px;
+    /* border: 2px solid transparent; */
     display: block;
     color: #ffffff;
     text-decoration: none;
     padding: .7rem;
     cursor: pointer;
-    transition: border .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
+.btn-nav #selected {
+  border-bottom: 1px solid #ffffff;
+  transition: all 1s ease-in-out;
 }
 
 .btn-nav a:hover{
-  border-radius: 5px;
-  border: 2px solid #ffffff;
+  color: #1DA1F2;
+  /* border-radius: 5px;
+  border: 2px solid #ffffff; */
 }
 
 .iconos-navbar{

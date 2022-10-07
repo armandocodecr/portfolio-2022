@@ -2,8 +2,8 @@ import { seedProyects } from '../../database/proyects-data';
 import { Text, Card, Col, Row, Loading, Modal, useModal, Button, Grid, Image } from "@nextui-org/react";
 import { FaGithub, FaEye, FaWindowClose } from 'react-icons/fa';
 
-export const ProyectCard = ( {projectPosition, title, description, image, technologys}: seedProyects) => {
-
+export const ProyectCard = ( {projectPosition, title, description, image, link, technologys}: seedProyects) => {
+    console.log(link)
     const { setVisible, bindings } = useModal();
 
     return (
@@ -54,9 +54,9 @@ export const ProyectCard = ( {projectPosition, title, description, image, techno
                 zIndex: 1,
             }}
             >
-                <Row align="center" css={{ padding: 3, position: 'relative', height: 45 }}>
+                <Row align="center" css={{ padding: 3, position: 'relative'}}>
                     <Col>
-                        <Text color="#d1d1d1" size={12} weight='bold'>
+                        <Text color="#d1d1d1" size={15} weight='bold' css={{ width: '90%', textShadow: "0 .25rem 1rem rgba(0,0,0,.75)", textOverflow: 'ellipsis', overflow: 'hidden', whiteSpace: 'nowrap' }}>
                             { description }
                         </Text>
                     </Col>
@@ -86,7 +86,7 @@ export const ProyectCard = ( {projectPosition, title, description, image, techno
           </Text>
           <Grid.Container gap={2} >
             <Grid xs={12} sm={4} className='technologys-list'>
-                <Text weight='bold' h5>Tecnologías usadas:</Text>
+                <Text weight='medium' h5>Tecnologías usadas:</Text>
                     {
                         technologys.map( technology => (
                             <Text>{technology}</Text>
@@ -107,10 +107,14 @@ export const ProyectCard = ( {projectPosition, title, description, image, techno
         </Modal.Body>
         <Modal.Footer justify='center'>
           <Button auto css={{ fontSize: 25, background: '#F1502F' }}>
-            <FaGithub />
+            <a href='https://twitter.com/CodeArmando' target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }}>
+                <FaGithub />
+            </a>
           </Button>
           <Button auto color='success' css={{ fontSize: 25 }}>
-            <FaEye />
+            <a  href={link} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }}>
+                <FaEye />
+            </a>
           </Button>
         </Modal.Footer>
       </Modal>

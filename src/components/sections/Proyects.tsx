@@ -10,7 +10,7 @@ export const Proyects = () => {
     return(
         <>
         
-            <section className="container-proyects containers">
+            <section className="container-proyects containers" id="projects">
                 <hr />
                 <div className="text-section">
 
@@ -36,6 +36,7 @@ export const Proyects = () => {
                                         title={project.title} 
                                         description={project.description} 
                                         image={project.image} 
+                                        link={project.link}
                                         technologys={project.technologys}
                                     />
                                 </Grid>

@@ -16,6 +16,13 @@ main{
     padding-top: 60px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+section[id]{
+    scroll-margin-top: -150px;
+}
 
 /* Componente del Banner */
 
