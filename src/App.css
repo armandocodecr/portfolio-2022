@@ -167,7 +167,7 @@ section[id]{
    
   }
 
-  /* .images-skills:hover{
+  .images-skills:hover{
     animation: cartel 1s 1;
     transform-origin: top center;
   }
@@ -184,7 +184,7 @@ section[id]{
     80%{
       transform: rotate(-5deg)
     }  
-  } */
+  }
 
   .images-skills img{
     margin: 0 auto;
