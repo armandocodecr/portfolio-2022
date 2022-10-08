@@ -1,6 +1,6 @@
 import './App.css';
 import { PortfolioLayout } from './components/layout/PortfolioLayout';
-import { Banner, About, Proyects } from './components/sections'
+import { Banner, About, Proyects, SkillsPage } from './components/sections'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Banner />
         <About />
         <Proyects />
+        <SkillsPage />
       </PortfolioLayout> 
     </>
   );

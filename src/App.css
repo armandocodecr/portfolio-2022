@@ -151,6 +151,50 @@ section[id]{
     color: rgb(172, 14, 14);
   }
 
+  /* Componente Skills */
+
+  .images-skills{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0.25rem 0.75rem 0.25rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: #00000066;
+    backdrop-filter: saturate(180%) blur(10px);
+   
+  }
+
+  .images-skills:hover{
+    animation: cartel 1s 1;
+    transform-origin: top center;
+  }
+  @keyframes cartel{ 
+    20%{
+      transform: rotate(20deg)
+    }
+    40%{
+      transform: rotate(-15deg)
+    }
+    60%{
+      transform: rotate(10deg)
+    }
+    80%{
+      transform: rotate(-5deg)
+    }  
+  }
+
+  .images-skills img{
+    margin: 0 auto;
+    width: 30%;
+  }
+
+  .images-skills p{
+    font-size: 25px;
+  }
+
 
 /* SECCION RESPONSIVE */
 
@@ -203,6 +247,12 @@ section[id]{
     }
 
 
+    /* Componente Skills */
+
+    .images-skills p{
+        font-size: 20px;
+    }
+
 }
 
 
@@ -217,6 +267,12 @@ section[id]{
 
     .container-about .container-sections{
         margin-top: 20px;
+    }
+
+    /* Componente Skills */
+
+    .images-skills img{
+        width: 20%;
     }
 
 }
@@ -265,6 +321,18 @@ section[id]{
         width: 300px;
     } 
 
+    /* Componente Skills */
+
+    .list-skills{
+        margin-top: 50px !important;
+        padding-top: 0px !important;
+    }
+
+    .images-skills img{
+        width: 15%;
+    }
+
+
 }
 
 @media screen and ( max-width: 400px ) {
@@ -295,7 +363,10 @@ section[id]{
     } 
 
 
-    /* Compontente ProjectCard */
+    /* Compontente Skills */
 
+    .images-skills{
+        margin-top: -50px !important;
+    }
     
 }

@@ -1,4 +1,4 @@
-import { Text, Grid, Image, Spacer } from "@nextui-org/react";
+import { Text, Grid } from "@nextui-org/react";
 
 import { proyectsData } from '../../database/proyects-data'
 import { ProyectCard } from './ProyectCard'
