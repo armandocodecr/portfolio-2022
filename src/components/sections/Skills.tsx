@@ -1,15 +1,4 @@
 import { Text, Grid, Image, Tooltip } from "@nextui-org/react";
-import { CssSVG, 
-    DockerSVG, 
-    HtmlSVG, 
-    JavaScriptSVG, 
-    MongoDbSVG, 
-    NextJsSVG, 
-    NodeJsSVG, 
-    ReactSVG, 
-    SqlSVG, 
-    TypeScriptSVG 
-    }  from '../../images/Skills';
 
 import SkillsImages from '../../images/prueba'
 
