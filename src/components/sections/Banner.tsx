@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import Scroll from '../../images/Scroll.json'
 import Typewriter from "typewriter-effect";
 
-export const Banner = () => {
+export const BannerSection = () => {
 
     return (
         <>

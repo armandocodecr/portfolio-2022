@@ -3,7 +3,7 @@ import computer from '../../images/computer.json'
 import Lottie from "lottie-react";
 import foto from '../../images/foto.jpg'
 
-export const About = () => {
+export const AboutSection = () => {
 
     return (
         <>

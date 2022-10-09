@@ -1,8 +1,8 @@
-import { Text, Grid, Image, Tooltip } from "@nextui-org/react";
+import { Text, Grid, Image } from "@nextui-org/react";
 
 import SkillsImages from '../../images/prueba'
 
-export const SkillsPage = () => {
+export const SkillsSection = () => {
 
     // const { html, docker, css, js, mongo, next, nodejs, react, sql, typescript } = SkillsImages;
 

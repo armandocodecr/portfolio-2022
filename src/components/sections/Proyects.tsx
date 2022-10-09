@@ -3,7 +3,7 @@ import { Text, Grid } from "@nextui-org/react";
 import { proyectsData } from '../../database/proyects-data'
 import { ProyectCard } from './ProyectCard'
 
-export const Proyects = () => {
+export const ProyectsSection = () => {
 
     const projectList = proyectsData.proyects;
 
