@@ -29,7 +29,7 @@ export const ProyectsSection = () => {
                     <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-sections'>
                         {
                             projectList.map((project, index) => (
-                                <Grid xs={12} sm={6} md={4} css={{ position: 'relative' }}>
+                                <Grid key={index} xs={12} sm={6} md={4} css={{ position: 'relative' }}>
                                     <ProyectCard 
                                         key={index}
                                         projectPosition={index+1}

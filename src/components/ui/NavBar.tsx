@@ -12,8 +12,6 @@ export const NavBar = () => {
 
   const [Clicked, setClicked] = useState(false);
 
-  console.log('Path: ', hash)
-
   const handlerClick = () => {
     //cuando está true lo pasa a false, y viceversa
     setClicked(!Clicked)

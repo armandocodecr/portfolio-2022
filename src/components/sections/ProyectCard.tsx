@@ -3,7 +3,7 @@ import { Text, Card, Col, Row, Loading, Modal, useModal, Button, Grid, Image } f
 import { FaGithub, FaEye, FaWindowClose } from 'react-icons/fa';
 
 export const ProyectCard = ( {projectPosition, title, description, image, link, technologys}: seedProyects) => {
-    console.log(link)
+
     const { setVisible, bindings } = useModal();
 
     return (
@@ -88,8 +88,8 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
             <Grid xs={12} sm={4} className='technologys-list'>
                 <Text weight='medium' h5>Tecnologías usadas:</Text>
                     {
-                        technologys.map( technology => (
-                            <Text>{technology}</Text>
+                        technologys.map( (technology, index) => (
+                            <Text key={index}>{technology}</Text>
                         ))
                     }
             </Grid>
