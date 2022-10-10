@@ -226,6 +226,17 @@ section[id]{
 
 @media screen and ( max-width: 1550px ) {
 
+    .containers .text-section{
+        display: block;
+        width: 100%;
+    }
+
+    .containers .text-section h1{
+        display: flex;
+        /* padding: 100px 500px; */
+        justify-content: center;
+    }
+
     /* Componente About */
 
     .container-about{
@@ -338,6 +349,7 @@ section[id]{
 
 @media screen and ( max-width: 620px ) {
 
+
     /* Componente Banner */
 
     .container-home{
@@ -365,7 +377,7 @@ section[id]{
     /* Componente About */
 
     .containers{
-        padding: 100px 50px 0 50px;
+        padding: 100px 30px 0 30px;
         width: 100%;
     }
 
@@ -401,9 +413,14 @@ section[id]{
         width: 100% !important;
     }
 
+
 }
 
 @media screen and ( max-width: 400px ) {
+
+    .containers .text-section h1{
+        font-size: 45px;
+    }
 
     /* Componente Banner */
 

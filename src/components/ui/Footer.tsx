@@ -10,7 +10,7 @@ export const Footer = () => {
             css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%",}}>
                 Web developer by Armando Cortés Murillo. ©2022. All rights reserved.
             </Text>
-            <div>
+            <div className="container-icons-footer">
             <a href='https://github.com/Armandocm19' target='_blank'>
               <FaGithub className='iconos-navbar' id='git' />
             </a>

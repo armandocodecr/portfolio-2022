@@ -73,7 +73,7 @@ export const ContactSection = () => {
                                 
                                 <Textarea size="lg" className="Input" label="Mensaje" placeholder="Escribe tu mensaje..." rows={5} name="message-user"/>
                                 
-                                <Button type="submit" css={{ width: '65%' }} shadow color="gradient"  > Contáctame ahora </Button>
+                                <Button type="submit" css={{ width: '65%', zIndex: 0 }} shadow color="gradient"  > Contáctame ahora </Button>
                             </form>
                         
                     </Grid>

@@ -147,6 +147,11 @@ nav img{
     margin-top: 10px;
   }
 
+  footer .container-icons-footer{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and ( max-width: 768px ) {
     .burger{
@@ -163,6 +168,7 @@ nav img{
       right: -300px;
       width: 300px;
       height: 100vh;
+      z-index: 1;
       background-color: #272828;
       box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
       padding: 40px 0 0 10px;
@@ -200,12 +206,18 @@ nav img{
 
 @media screen and ( max-width: 400px ) {
 
+    /* Componente Footer */
+
   footer p{
     font-size: 9px;
   }
 
   footer .iconos-navbar{
     font-size: 15px;
+  }
+
+  footer .iconos-navbar{
+    margin-left: 10px;
   }
 
 }
