@@ -76,8 +76,13 @@ section[id]{
 }
 
 .containers .text-section{
+    display: block;
     width: 100%;
+}
+
+.containers .text-section h1{
     display: flex;
+    /* padding: 100px 500px; */
     justify-content: center;
 }
 
@@ -226,16 +231,7 @@ section[id]{
 
 @media screen and ( max-width: 1550px ) {
 
-    .containers .text-section{
-        display: block;
-        width: 100%;
-    }
 
-    .containers .text-section h1{
-        display: flex;
-        /* padding: 100px 500px; */
-        justify-content: center;
-    }
 
     /* Componente About */
 
