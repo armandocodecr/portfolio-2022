@@ -24,6 +24,17 @@ section[id]{
     scroll-margin-top: -150px;
 }
 
+body::-webkit-scrollbar{
+    width: 7px;
+    padding-top: 22px;
+    height: 5px;
+  }
+  
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(6, 40, 85);
+    border-radius: 5px;
+  }
+
 /* Componente del Banner */
 
 .container-home{
@@ -344,7 +355,6 @@ section[id]{
 
 
 @media screen and ( max-width: 620px ) {
-
 
     /* Componente Banner */
 
