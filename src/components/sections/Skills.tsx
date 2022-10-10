@@ -1,6 +1,6 @@
 import { Text, Grid, Image } from "@nextui-org/react";
 
-import SkillsImages from '../../images/prueba'
+import SkillsImages from '../../images/Skills'
 
 export const SkillsSection = () => {
 
