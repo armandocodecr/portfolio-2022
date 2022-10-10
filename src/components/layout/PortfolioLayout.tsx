@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import NavBar from '../ui/NavBar'
+import { NavBar, Footer } from '../ui'
 
 interface Props {
     title: string;
@@ -41,7 +41,7 @@ export const PortfolioLayout: FC<Props> = ({ title, pageDescription, imageFullUr
             </main>
 
             <footer>
-                {/* toDo */}
+                <Footer />
             </footer>
 
         </>

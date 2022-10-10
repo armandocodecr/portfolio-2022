@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import './Styles.css'
 import BurgenButton from './BurgenButton';
 
-export default function App() {
+export const NavBar = () => {
   
   const { hash } = useLocation()
 

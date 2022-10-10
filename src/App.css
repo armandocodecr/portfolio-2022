@@ -205,6 +205,13 @@ section[id]{
     height: 5vh;
   }
 
+  #contact form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
   .container-contact label{
     margin-top: 30px !important;
   }
@@ -216,6 +223,33 @@ section[id]{
 
 
 /* SECCION RESPONSIVE */
+
+@media screen and ( max-width: 1550px ) {
+
+    /* Componente About */
+
+    .container-about{
+        padding: 100px 100px 0 100px;
+    }
+
+    .container-about p{
+        font-size: 23px;
+        top: 40%
+    }
+
+}
+
+@media screen and ( max-width: 1300px ) {
+
+    /* Componente About */
+
+    .container-about p{
+        width: 400px;
+        font-size: 20px;
+         top: 30% 
+    }
+
+}
 
 @media screen and ( max-width: 960px ) {
 
@@ -235,6 +269,10 @@ section[id]{
 
    /* Componente About */
 
+   .container-about{
+    padding: 100px 200px 0 200px;
+}
+
    .containers h1{
      font-size: 55px;
     }  
@@ -242,6 +280,7 @@ section[id]{
     .container-about p{
         text-align: center;
         padding: 20px 0 50px 0;
+        margin: 0 auto;
         font-size: 20px;
     } 
    
