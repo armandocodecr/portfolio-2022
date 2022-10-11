@@ -91,7 +91,7 @@ export const ContactSection = () => {
                     <Grid xl={6} lg={6} md={12} sm={12} xs={12} css={{ display: 'flex', justifyContent: 'center'}}>
 
                             <form ref={form} onSubmit={sendEmail}>
-                                <Input size="lg" className="Input" label="Correo electrónico" placeholder="mail@example.com" name="user-email" />
+                                <Input size="lg" type='email' className="Input" label="Correo electrónico" placeholder="mail@example.com" name="user-email" />
                                 
                                 <Input size="lg" className="Input" label="Nombre completo" placeholder="John Artur" name="user-name" />
                                 
