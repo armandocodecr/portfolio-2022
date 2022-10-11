@@ -7,6 +7,11 @@ import emailjs from '@emailjs/browser'
 
 import AnimationContact from '../../images/AnimationContact.json'
 
+interface Props {
+    message_user: string,
+
+}
+
 export const ContactSection = () => {
 
     const form = useRef(null!);
@@ -14,29 +19,48 @@ export const ContactSection = () => {
     const sendEmail = ( e: React.ChangeEvent<HTMLFormElement> ) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_mjdizoo', 'template_2ktds7n', form.current, '1PbewP3nsEHNkgYL5')
-        .then( response => {
-            console.log(response);
-            Swal.fire({
-                position: 'center',
-                icon: 'success',
-                title: 'Su correo ha sido enviado exitosamente',
-                showConfirmButton: false,
-                timer: 1500
-              });
-        } )
-        .catch( error => {
-            console.log(error)
-            Swal.fire({
-                position: 'center',
-                icon: 'error',
-                title: 'Ha ocurrido un problema al enviar el correo',
-                showConfirmButton: false,
-                timer: 1500
-              });
-        } )
+        const formData = new FormData(form.current);
+        const values = Object.fromEntries(formData);
+        
+        if( values['message-user'] !== '' && values['user-email'] !== '' && values['user-name'] !== '' ){
+            emailjs.sendForm('service_mjdizoo', 'template_2ktds7n', form.current, '1PbewP3nsEHNkgYL5')
+            .then( response => {
+                console.log(response);
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Su correo ha sido enviado exitosamente',
+                    showConfirmButton: false,
+                    timer: 2500
+                  });
+            } )
+            .catch( error => {
+                console.log(error)
+                Swal.fire({
+                    position: 'center',
+                    icon: 'error',
+                    title: 'Ha ocurrido un problema al enviar el correo',
+                    showConfirmButton: false,
+                    timer: 1500
+                  });
+            } );
 
-        e.target.reset()
+            e.target.reset()
+
+            return;
+        }
+
+
+        Swal.fire({
+            position: 'center',
+            icon: 'error',
+            title: 'Por favor llene todos los campos del formulario',
+            showConfirmButton: false,
+            timer: 2500
+          });
+       
+          e.target.reset()
+        
     }
 
     return (
