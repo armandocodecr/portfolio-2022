@@ -2,7 +2,7 @@ import { seedProyects } from '../../database/proyects-data';
 import { Text, Card, Col, Row, Loading, Modal, useModal, Button, Grid, Image } from "@nextui-org/react";
 import { FaGithub, FaEye, FaWindowClose } from 'react-icons/fa';
 
-export const ProyectCard = ( {projectPosition, title, description, image, link, technologys}: seedProyects) => {
+export const ProyectCard = ( {projectPosition, title, description, image, link, github, technologys}: seedProyects) => {
 
     const { setVisible, bindings } = useModal();
 
@@ -107,7 +107,7 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
         </Modal.Body>
         <Modal.Footer justify='center'>
           <Button auto css={{ fontSize: 25, background: '#F1502F' }}>
-            <a href='https://twitter.com/CodeArmando' target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }}>
+            <a href={github} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }}>
                 <FaGithub />
             </a>
           </Button>

@@ -5,7 +5,8 @@ export interface seedProyects {
     title: string,
     description: string,
     image: string,
-    link: string
+    link: string,
+    github: string,
     technologys: ValidTechnologys[],
 }
 
@@ -23,6 +24,7 @@ export const proyectsData: SeedData = {
             description: 'Listado de películas, donde puedes buscar y ver detalles de las mismas.',
             image: 'https://i.ibb.co/JWZqCNm/MovieApp.png',
             link: 'https://movie-app-2022-cm.vercel.app/',
+            github: 'https://github.com/Armandocm19/movie-app',
             technologys: ['React', 'NextJS', 'TypeScript', 'CSS', 'HTML'],
         },
         {
@@ -30,6 +32,7 @@ export const proyectsData: SeedData = {
             description: 'Página estática que muestra un listado de pokemones, con algunas funcionalidades más.',
             image: 'https://i.ibb.co/P6NXnj0/PokeApp.png',
             link: 'https://pokemonappstatic.vercel.app/',
+            github: 'https://github.com/Armandocm19/PokemoApi',
             technologys: ['React', 'NextJS', 'TypeScript', 'CSS', 'HTML']
         },
         {
@@ -37,6 +40,7 @@ export const proyectsData: SeedData = {
             description: 'Web donde muestra los Parques Nacionales de unos de mis países favoritos',
             image: 'https://i.ibb.co/b2vQW7j/Galeria-Web.png',
             link: 'https://galeria-web.vercel.app/',
+            github: 'https://github.com/Armandocm19/GaleriaWeb',
             technologys: ['JavaScript', 'CSS', 'HTML']
         }
     ]
