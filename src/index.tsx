@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import './index.css';
 import App from './App';
-import { PortfolioLayout } from './components/layout/PortfolioLayout';
 import reportWebVitals from './reportWebVitals';
 
 import { NextUIProvider } from '@nextui-org/react';

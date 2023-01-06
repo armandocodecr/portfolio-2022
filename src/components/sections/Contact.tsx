@@ -1,16 +1,11 @@
-import React, { FormEvent, useRef } from "react";
+import React, { useRef } from "react";
 
-import { Text, Grid, Input, Textarea, Button, FormElement } from "@nextui-org/react";
+import { Text, Grid, Input, Textarea, Button } from "@nextui-org/react";
 import Swal from "sweetalert2";
 import Lottie from "lottie-react";
 import emailjs from '@emailjs/browser'
 
 import AnimationContact from '../../images/AnimationContact.json'
-
-interface Props {
-    message_user: string,
-
-}
 
 export const ContactSection = () => {
 

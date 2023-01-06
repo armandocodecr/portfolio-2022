@@ -1,4 +1,4 @@
-import { Text, Grid, Image, Spacer } from "@nextui-org/react";
+import { Text, Grid, Image } from "@nextui-org/react";
 
 import computer from '../../images/computer.json'
 import Lottie from "lottie-react";

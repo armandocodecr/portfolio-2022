@@ -21,13 +21,13 @@ export const NavBar = () => {
       <>
 
           <div>
-            <a href='https://github.com/Armandocm19' target='_blank'>
+            <a href='https://github.com/Armandocm19' target='_blank' rel="noreferrer">
               <FaGithub className='iconos-navbar' id='git' />
             </a>
-            <a href='https://www.linkedin.com/in/armando-murillo/' target='_blank'>
+            <a href='https://www.linkedin.com/in/armando-murillo/' target='_blank' rel="noreferrer">
               <FaLinkedin className='iconos-navbar' id='linkedin' />
             </a>
-            <a href='https://twitter.com/CodeArmando' target='_blank'>
+            <a href='https://twitter.com/CodeArmando' target='_blank' rel="noreferrer">
               <FaTwitter className='iconos-navbar' id='twitter' />
             </a>
           </div>
