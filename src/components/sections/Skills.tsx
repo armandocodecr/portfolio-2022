@@ -4,8 +4,6 @@ import SkillsImages from '../../images/Skills'
 
 export const SkillsSection = () => {
 
-    // const { html, docker, css, js, mongo, next, nodejs, react, sql, typescript } = SkillsImages;
-
     return(
         <>
         

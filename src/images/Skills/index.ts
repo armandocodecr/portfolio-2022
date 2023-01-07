@@ -8,6 +8,8 @@
  import react from './react.png'
  import sql from './sql.png'
  import typescript from './typescript.png'
+ import github from './github.png'
+ import git from './git.png'
 
  const SkillsImages = [
     {link: html, title: 'HTML'},
@@ -20,19 +22,8 @@
     {link: react, title: 'React'},
     {link: sql, title: 'SQL'},
     {link: typescript, title: 'TypeScript'},
+    {link: github, title: 'GitHub'},
+    {link: git, title: 'Git'},
  ]
-
-//  const SkillsImages = [
-//     html,
-//     docker,
-//     css,
-//     js,
-//     mongo,
-//     next,
-//     nodejs,
-//     react,
-//     sql,
-//     typescript
-//  ]
 
  export default SkillsImages;
