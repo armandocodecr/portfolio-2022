@@ -3,6 +3,8 @@ import Lottie from "lottie-react";
 import Scroll from '../../images/Scroll.json'
 import Typewriter from "typewriter-effect";
 
+import { FaFileDownload } from 'react-icons/fa';
+
 export const BannerSection = () => {
 
     return (
@@ -54,7 +56,9 @@ export const BannerSection = () => {
                         }}
                     />
 
+                    <a href="./download/Curriculum.pdf" rel="noopener noreferrer" target='_blank' id="btn-download-cv"> <FaFileDownload id="icon-download-cv" /> Curriculum</a>
                 </div>
+
 
                 <div className='scrollContainer'>
                         <Lottie animationData={Scroll} className='scrollItem'  />
