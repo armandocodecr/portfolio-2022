@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 import './Styles.css'
+//import pdf from './download/Curriculum.pdf'
 import BurgenButton from './BurgenButton';
 
 export const NavBar = () => {
@@ -35,7 +36,7 @@ export const NavBar = () => {
           <div className={`btn-nav ${Clicked ? 'active' : ''}`}>
             <a href="#about" id={ hash === '#about' ? 'selected' : '' } onClick={handlerClick}>Sobre mi</a>
             <a href="#projects" id={ hash === '#projects' ? 'selected' : '' } onClick={handlerClick}>Proyectos</a>
-            <a href="#skills" id={ hash === '#sills' ? 'selected' : '' } onClick={handlerClick}>Habilidades</a>
+            <a href="#skills" id={ hash === '#skills' ? 'selected' : '' } onClick={handlerClick}>Habilidades</a>
             <a href="#contact" id={ hash === '#contact' ? 'selected' : '' } onClick={handlerClick}>Contáctame</a>
           </div>
 
