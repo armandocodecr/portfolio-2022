@@ -152,6 +152,10 @@ nav img{
     justify-content: center;
 }
 
+#btn-blog{
+  border-bottom: 1px solid white;
+}
+
 
 @media screen and ( max-width: 768px ) {
     .burger{
@@ -175,6 +179,9 @@ nav img{
       transition: 0.3s ease-in-out;
   }
 
+  .btn-nav a{
+    min-width: 150px;
+  }
 
   .btn-nav.active {
     right: 0;
