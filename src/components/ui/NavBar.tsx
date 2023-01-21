@@ -38,6 +38,7 @@ export const NavBar = () => {
             <a href="#projects" id={ hash === '#projects' ? 'selected' : '' } onClick={handlerClick}>Proyectos</a>
             <a href="#skills" id={ hash === '#skills' ? 'selected' : '' } onClick={handlerClick}>Habilidades</a>
             <a href="#contact" id={ hash === '#contact' ? 'selected' : '' } onClick={handlerClick}>Contáctame</a>
+            <a href="https://blog-armandocode.vercel.app/" id='btn-blog' target='_blank'>Mi Blog</a>
           </div>
 
           <div className="burger">
