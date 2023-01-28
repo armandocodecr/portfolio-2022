@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEye } from 'react-icons/fa';
 
 import './Styles.css'
 //import pdf from './download/Curriculum.pdf'
@@ -38,7 +38,7 @@ export const NavBar = () => {
             <a href="#projects" id={ hash === '#projects' ? 'selected' : '' } onClick={handlerClick}>Proyectos</a>
             <a href="#skills" id={ hash === '#skills' ? 'selected' : '' } onClick={handlerClick}>Habilidades</a>
             <a href="#contact" id={ hash === '#contact' ? 'selected' : '' } onClick={handlerClick}>Contáctame</a>
-            <a href="https://blog-armandocode.vercel.app/" id='btn-blog' target='_blank'>Mi Blog</a>
+            <a href="https://blog-armandocode.vercel.app/" id='btn-blog' target='_blank'><FaEye />Mi Blog</a>
           </div>
 
           <div className="burger">
