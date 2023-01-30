@@ -45,7 +45,7 @@ export const proyectsData: SeedData = {
         },
         {
             title: 'Teslo-Shop (Clon)',
-            description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa.',
+            description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
             image: 'https://i.ibb.co/2nsTrGW/Teslo-Shop.png',
             link: 'https://next-teslo-shop-2023.vercel.app/',
             github: 'https://github.com/Armandocm19/next-teslo-shop',
@@ -53,9 +53,9 @@ export const proyectsData: SeedData = {
         },
         {
             title: 'Helados Artesanales',
-            description: 'Esta es una web para el emprendimiento de un cliente, donde se pueden hacer órdenes,y además permite tener un control del inventario.',
+            description: 'Esta es una web para el emprendimiento de un cliente, donde se pueden hacer órdenes, y además permite tener un control del inventario. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
             image: 'https://i.ibb.co/80WcNRw/Helados-Artesanales.png',
-            link: 'https://helados-artesanales.up.railway.app/',
+            link: 'https://helados-artesanales-sm.vercel.app/',
             github: 'https://github.com/Armandocm19/helados-artesanales',
             technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'MongoDB']
         }
