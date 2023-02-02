@@ -1,5 +1,4 @@
 
-
 export interface seedProyects {
     projectPosition?: number,
     title: string,
@@ -22,7 +21,7 @@ export const proyectsData: SeedData = {
         {
             title: 'MovieAPP',
             description: 'Listado de películas, donde puedes buscar y ver detalles de las mismas.',
-            image: 'https://i.ibb.co/JWZqCNm/MovieApp.png',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300262/portfolio-projects/l0vcavflx2rs0tyhfe62.png',
             link: 'https://movie-app-2022-cm.vercel.app/',
             github: 'https://github.com/Armandocm19/movie-app',
             technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'NextUI'],
@@ -30,7 +29,7 @@ export const proyectsData: SeedData = {
         {
             title: 'PokemonAppStatic',
             description: 'Página estática que muestra un listado de pokemones, con algunas funcionalidades más.',
-            image: 'https://i.ibb.co/P6NXnj0/PokeApp.png',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300258/portfolio-projects/wmog7dmfdccjf3g6taoi.png',
             link: 'https://pokemonappstatic.vercel.app/',
             github: 'https://github.com/Armandocm19/PokemoApi',
             technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML']
@@ -38,7 +37,7 @@ export const proyectsData: SeedData = {
         {
             title: 'Galería Web',
             description: 'Web donde muestra los Parques Nacionales de unos de mis países favoritos.',
-            image: 'https://i.ibb.co/b2vQW7j/Galeria-Web.png',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300264/portfolio-projects/z7sxcoi8ugdmhh9uj6dl.png',
             link: 'https://galeria-web.vercel.app/',
             github: 'https://github.com/Armandocm19/GaleriaWeb',
             technologys: ['JavaScript', 'CSS', 'HTML']
@@ -46,7 +45,7 @@ export const proyectsData: SeedData = {
         {
             title: 'Teslo-Shop (Clon)',
             description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
-            image: 'https://i.ibb.co/2nsTrGW/Teslo-Shop.png',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300257/portfolio-projects/gjbzhiyysftcamkhyju7.png',
             link: 'https://next-teslo-shop-2023.vercel.app/',
             github: 'https://github.com/Armandocm19/next-teslo-shop',
             technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB']
@@ -54,7 +53,7 @@ export const proyectsData: SeedData = {
         {
             title: 'Helados Artesanales',
             description: 'Esta es una web para el emprendimiento de un cliente, donde se pueden hacer órdenes, y además permite tener un control del inventario. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
-            image: 'https://i.ibb.co/80WcNRw/Helados-Artesanales.png',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300263/portfolio-projects/bvuta2hbfdbu9zo7fw92.png',
             link: 'https://helados-artesanales-sm.vercel.app/',
             github: 'https://github.com/Armandocm19/helados-artesanales',
             technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'MongoDB']

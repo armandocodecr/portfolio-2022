@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 import Lottie from "lottie-react";
 import emailjs from '@emailjs/browser'
 
-import AnimationContact from '../../images/AnimationContact.json'
+import AnimationContact from '../../static/images/AnimationContact.json'
 
 export const ContactSection = () => {
 

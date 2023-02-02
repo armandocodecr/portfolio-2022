@@ -1,6 +1,6 @@
 import { Text } from "@nextui-org/react";
 import Lottie from "lottie-react";
-import Scroll from '../../images/Scroll.json'
+import Scroll from '../../static/images/Scroll.json'
 import Typewriter from "typewriter-effect";
 
 import { FaFileDownload } from 'react-icons/fa';

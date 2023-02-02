@@ -1,8 +1,8 @@
 import { Text, Grid, Image } from "@nextui-org/react";
 
-import computer from '../../images/computer.json'
+import computer from '../../static/images/computer.json'
 import Lottie from "lottie-react";
-import foto from '../../images/foto.jpg'
+import foto from '../../static/images/foto.jpg'
 
 
 export const AboutSection = () => {
