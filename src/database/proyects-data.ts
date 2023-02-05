@@ -36,7 +36,7 @@ export const proyectsData: SeedData = {
         },
         {
             title: 'Galería Web',
-            description: 'Web donde muestra los Parques Nacionales de unos de mis países favoritos.',
+            description: 'Este proyecto es una galería de imágenes de los Parques Nacionales en unos de mis países favoritos.',
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300264/portfolio-projects/z7sxcoi8ugdmhh9uj6dl.png',
             link: 'https://galeria-web.vercel.app/',
             github: 'https://github.com/Armandocm19/GaleriaWeb',
@@ -57,7 +57,15 @@ export const proyectsData: SeedData = {
             link: 'https://helados-artesanales-sm.vercel.app/',
             github: 'https://github.com/Armandocm19/helados-artesanales',
             technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'MongoDB']
-        }
+        },
+        {
+            title: 'TRES EN RAYA',
+            description: 'En este proyecto construyo el famoso juego "Tres en Raya", el cual tiene una interfaz sencilla, pero tiene una lógica interesante. Esto por el manejo del estado que tiene para detectar cuando el jugador ganó, perdió, o empató. Además de que está programado para que el usuario no gane fácilmente. 👀',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675565063/portfolio-projects/rjve54majth1g8oyugos.png',
+            link: 'https://juego-tres-en-raya.vercel.app/',
+            github: 'https://github.com/Armandocm19/juego-tres-en-raya',
+            technologys: ['React', 'TypeScript', 'CSS', 'HTML']
+        },
     ]
 
 }
