@@ -2,27 +2,14 @@ import React, { FC } from "react";
 import { NavBar, Footer } from '../ui'
 
 interface Props {
-    title: string;
-    pageDescription: string;
-    imageFullUrl?: string;
     children: JSX.Element | JSX.Element[];
 }
 
-export const PortfolioLayout: FC<Props> = ({ title, pageDescription, imageFullUrl, children  }) => {
+export const PortfolioLayout: FC<Props> = ({ children  }) => {
 
     return (
         <>
             <header>
-                <title>{title}</title>
-                <meta name="description" content={pageDescription} />
-                <meta name="og:title" content={title} />
-                <meta name="og:description" content={pageDescription} />
-
-                {
-                    imageFullUrl && (
-                        <meta name="og:image" content={imageFullUrl} />
-                    )
-                }
 
             <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"></link>  
 

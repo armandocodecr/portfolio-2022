@@ -5,7 +5,7 @@ import { BannerSection, AboutSection, ProyectsSection, SkillsSection, ContactSec
 function App() {
   return (
     <>
-     <PortfolioLayout title='Pagina de portfolio' pageDescription='Mi portfolio web como desarrollador de software'>
+     <PortfolioLayout >
         <BannerSection />
         <AboutSection />
         <ProyectsSection />
