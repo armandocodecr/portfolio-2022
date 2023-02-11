@@ -1,23 +1,27 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 
-import { Text, Grid, Input, Textarea, Button } from "@nextui-org/react";
+import { Text, Grid, Button } from "@nextui-org/react";
 import Swal from "sweetalert2";
 import Lottie from "lottie-react";
 import emailjs from '@emailjs/browser'
+import { Formik, Form } from "formik"
 
 import AnimationContact from '../../static/images/AnimationContact.json'
+import { MyTextInput } from "../formComponents/myTextInput";
+import { InitialValues, yupObject } from "../../services";
+
+// interface messageValues {
+//     email: string;
+//     userName: string;
+//     message: string;
+// }
 
 export const ContactSection = () => {
 
     const form = useRef(null!);
 
-    const sendEmail = ( e: React.ChangeEvent<HTMLFormElement> ) => {
-        e.preventDefault();
+    const sendEmail = () => {
 
-        const formData = new FormData(form.current);
-        const values = Object.fromEntries(formData);
-        
-        if( values['message-user'] !== '' && values['user-email'] !== '' && values['user-name'] !== '' ){
             emailjs.sendForm('service_mjdizoo', 'template_2ktds7n', form.current, '1PbewP3nsEHNkgYL5')
             .then( response => {
                 console.log(response);
@@ -40,23 +44,18 @@ export const ContactSection = () => {
                   });
             } );
 
-            e.target.reset()
-
             return;
-        }
-
-
-        Swal.fire({
-            position: 'center',
-            icon: 'error',
-            title: 'Por favor llene todos los campos del formulario',
-            showConfirmButton: false,
-            timer: 2500
-          });
-       
-          e.target.reset()
         
     }
+
+    const allValuesNotEmpty = ( values : any ) => {
+        for (const key in values) {
+          if (values[key] === '') {
+            return false;
+          }
+        }
+        return true;
+      }
 
     return (
         <>
@@ -85,15 +84,64 @@ export const ContactSection = () => {
 
                     <Grid xl={6} lg={6} md={12} sm={12} xs={12} css={{ display: 'flex', justifyContent: 'center'}}>
 
-                            <form ref={form} onSubmit={sendEmail}>
-                                <Input size="lg" type='email' className="Input" label="Correo electrónico" placeholder="mail@example.com" name="user-email" />
-                                
-                                <Input size="lg" className="Input" label="Nombre completo" placeholder="John Artur" name="user-name" />
-                                
-                                <Textarea size="lg" className="Input" label="Mensaje" placeholder="Escribe tu mensaje..." rows={5} name="message-user"/>
-                                
-                                <Button type="submit" css={{ width: '65%', zIndex: 0 }} shadow color="gradient"  > Contáctame ahora </Button>
-                            </form>
+                        <Formik
+                            initialValues={ InitialValues }
+                            onSubmit={ (values) => {
+                                // Nothing
+                            } }
+                            validationSchema={ yupObject } 
+                        >
+
+                        {
+                            ({ handleReset, values }) =>  (
+                                <Form ref={form} noValidate>
+                                    <MyTextInput 
+                                        size="lg" 
+                                        type='email' 
+                                        className="Input" 
+                                        label="Correo electrónico" 
+                                        placeholder="mail@example.com" 
+                                        name="email" 
+                                    />
+
+                                    <MyTextInput 
+                                        size="lg" 
+                                        className="Input" 
+                                        label="Nombre completo" 
+                                        placeholder="John Artur" 
+                                        name="userName" 
+                                    
+                                        />
+
+                                    <MyTextInput 
+                                        size="lg" 
+                                        className="Input" 
+                                        label="Mensaje" 
+                                        placeholder="Escribe tu mensaje..." 
+                                        rows={5} 
+                                        name="message" 
+                                        istextarea="true"
+                                    />
+
+                                    <Button 
+                                        type="submit" 
+                                        css={{ width: '65%', zIndex: 0 }} 
+                                        shadow 
+                                        color="gradient"
+                                        onClick={() => {
+                                            if( allValuesNotEmpty(values) ){
+                                                sendEmail();
+                                                handleReset();
+                                            }
+                                        }}  
+                                    > 
+                                        Contáctame ahora 
+                                    </Button>
+                                </Form>
+                            )
+                        }
+
+                        </Formik>
                         
                     </Grid>
                 </Grid.Container>
