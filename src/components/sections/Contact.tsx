@@ -80,7 +80,7 @@ export const ContactSection = () => {
 
                                     <Button 
                                         type="submit" 
-                                        css={{ width: '65%', zIndex: 0 }} 
+                                        css={{ width: '40%', zIndex: 0 }} 
                                         shadow 
                                         color="gradient"
                                         onPress={() => {
