@@ -19,7 +19,7 @@ export const SkillsSection = () => {
                         }}
                         weight="bold"
                     >
-                        Habilidades
+                        Conocimientos
                     </Text>
                 </div>
 
