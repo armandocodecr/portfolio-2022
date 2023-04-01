@@ -1,7 +1,5 @@
 import { Text, Grid, Image } from "@nextui-org/react";
 
-import computer from '../../static/images/computer.json'
-import Lottie from "lottie-react";
 import foto from '../../static/images/foto.jpg'
 
 
@@ -26,10 +24,12 @@ export const AboutSection = () => {
 
                 <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-sections'>
 
-                    <Grid xs={12} sm={6} css={{ position: 'relative' }}>
-                        <Text css={{ position: 'relative', top: '30%' }}>
-                            Tengo 21 años, y soy de <strong>Costa Rica</strong>. Actualmente estoy en mi último curso de la carrera de Ingeniería en informática en
-                            la Universidad Hispanoamericana, y cada día trato de expandir mi conocimiento sobre este mundo.
+                    <Grid xs={12} sm={6} css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <Text >
+                            21 años. Soy de <strong>Costa Rica</strong>. Cursando último año en Ingeniería de Informática
+                            en la Universidad Hispanoamericana. Expandiendo mi conocimiento en este mundo.
+                            Apasionado por la tecnología, la programación y el diseño. Nunca conformandome con lo que me aporta la Universidad siendo una persona
+                            autodidacta en busca de especializarme en <em>Desarrollo web</em>.👨‍💻
                         </Text>
                     </Grid>
 
@@ -41,17 +41,6 @@ export const AboutSection = () => {
                         alt="Default Image"
                         objectFit="cover"
                     />
-                    </Grid>
-
-                    <Grid xs={12} sm={6} id='prueba'>
-                        <Lottie animationData={computer} className='animation'/>
-                    </Grid>
-
-                    <Grid xs={12} sm={6} css={{ position: 'relative' }}>
-                        <Text css={{ position: 'relative', top: '50%' }}>
-                            Apasionado por la tecnología, la programación y el diseño. Nunca conformandome con lo que me aporta la Universidad siendo una persona
-                            autodidacta en busca de especializarme en <em>Desarrollo web</em>.
-                        </Text>
                     </Grid>
 
                 </Grid.Container>

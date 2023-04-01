@@ -189,6 +189,10 @@ body::-webkit-scrollbar-thumb{
     color: rgb(172, 14, 14);
   }
 
+  .nextui-c-cakKrd-ikWZVSY-css{
+    backdrop-filter: saturate(180%) blur(3px) !important;
+  }
+
   /* Componente Skills */
 
   .images-skills{
@@ -256,7 +260,7 @@ body::-webkit-scrollbar-thumb{
 
   .container-contact button{
     margin: 0 auto;
-    margin-top: 140px;
+    margin-top: 110px;
   }
 
 
@@ -484,12 +488,12 @@ body::-webkit-scrollbar-thumb{
      /* Componente About */
 
     .container-about p{
-        font-size: 12px;
+        font-size: 13px;
     } 
 
     .container-about img{
-        height: 200;
-        width: 200px;
+        height: 350px;
+        width: 250px;
     } 
 
 
