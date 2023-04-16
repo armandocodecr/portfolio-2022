@@ -42,14 +42,14 @@ export const proyectsData: SeedData = {
             github: 'https://github.com/Armandocm19/GaleriaWeb',
             technologys: ['JavaScript', 'CSS', 'HTML']
         },
-        // {
-        //     title: 'Teslo-Shop (Clon)',
-        //     description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
-        //     image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300257/portfolio-projects/gjbzhiyysftcamkhyju7.png',
-        //     link: 'https://next-teslo-shop-2023.vercel.app/',
-        //     github: 'https://github.com/Armandocm19/next-teslo-shop',
-        //     technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB']
-        // },
+        {
+            title: 'Teslo-Shop (Clon)',
+            description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300257/portfolio-projects/gjbzhiyysftcamkhyju7.png',
+            link: 'https://next-teslo-shop-2023.vercel.app/',
+            github: 'https://github.com/Armandocm19/next-teslo-shop',
+            technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB']
+        },
         {
             title: 'Helados Artesanales',
             description: 'Esta es una web para el emprendimiento de un cliente, donde se pueden hacer órdenes, y además permite tener un control del inventario. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
