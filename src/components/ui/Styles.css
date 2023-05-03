@@ -219,7 +219,17 @@ nav img{
 
 @media screen and ( max-width: 400px ) {
 
-    /* Componente Footer */
+  /* Componente Navbar */
+
+  nav {
+    padding: 10px !important;
+  }
+
+  .iconos-navbar{
+    margin-left: 25px;
+  }
+
+  /* Componente Footer */
 
   footer p{
     font-size: 9px;
