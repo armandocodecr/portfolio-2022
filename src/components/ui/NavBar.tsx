@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { FaGithub, FaLinkedin, FaTwitter, FaEye } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaEye, FaTwitch } from 'react-icons/fa';
 
 import './Styles.css'
 //import pdf from './download/Curriculum.pdf'
@@ -30,6 +30,9 @@ export const NavBar = () => {
             </a>
             <a href='https://twitter.com/CodeArmando' target='_blank' rel="noreferrer">
               <FaTwitter className='iconos-navbar' id='twitter' />
+            </a>
+            <a href='https://www.twitch.tv/armandocodecr' target='_blank' rel="noreferrer">
+              <FaTwitch className='iconos-navbar' id='twitch' />
             </a>
           </div>
 
