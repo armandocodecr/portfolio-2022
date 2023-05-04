@@ -7,6 +7,7 @@ export interface seedProyects {
     link: string,
     github: string,
     technologys: ValidTechnologys[],
+    video?: string
 }
 
 type ValidTechnologys = 'JavaScript'|'NodeJS'|'React'|'NextJS'|'CSS'|'Sass'|'MongoDB'|'HTML'|'TypeScript'|'MaterialUI'|'NextUI';
@@ -44,11 +45,12 @@ export const proyectsData: SeedData = {
         },
         {
             title: 'Teslo-Shop (Clon)',
-            description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
+            description: 'Esta es un clon de la tienda Teslo-Shop, la cuál contiene su propia base de datos, y área administrativa. NOTA: Este proyecto tiene un video audivisual en los ícono de abajo para su demostración completa. Esto porque el proyecto está subido en un dominio gratuito, y no tengo la posibilidad de pagar uno, por lo que este no acepta las serverless function usadas en el proyecto. 👨‍💻',
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300257/portfolio-projects/gjbzhiyysftcamkhyju7.png',
             link: 'https://next-teslo-shop-2023.vercel.app/',
             github: 'https://github.com/Armandocm19/next-teslo-shop',
-            technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB']
+            technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB'],
+            video: 'https://www.youtube.com/watch?v=XbZQ1iZYjNA'
         },
         {
             title: 'Helados Artesanales',
