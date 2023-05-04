@@ -1,8 +1,8 @@
 import { seedProyects } from '../../database/proyects-data';
-import { Text, Card, Col, Row, Loading, Modal, useModal, Button, Grid, Image } from "@nextui-org/react";
-import { FaGithub, FaEye, FaWindowClose } from 'react-icons/fa';
+import { Text, Card, Col, Row, Loading, Modal, useModal, Grid, Image } from "@nextui-org/react";
+import { FaGithub, FaEye, FaWindowClose, FaVideo } from 'react-icons/fa';
 
-export const ProyectCard = ( {projectPosition, title, description, image, link, github, technologys}: seedProyects) => {
+export const ProyectCard = ( {projectPosition, title, description, image, link, github, technologys, video}: seedProyects) => {
 
     const { setVisible, bindings } = useModal();
 
@@ -74,7 +74,7 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
             {...bindings}
         >
         <Modal.Header>
-          <Text id="modal-title" weight='bold' css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%" }} size={30}>
+          <Text id="modal-title" weight='bold' css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%" }} size={35}>
             {title}
           </Text>
           <FaWindowClose onClick={ () => setVisible(false) } id='btn_close' />
@@ -113,6 +113,13 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
           <a  href={link} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
                 <FaEye style={{ fontSize: '25px' }} />
           </a>
+          {
+            video && (
+                <a  href={video} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
+                    <FaVideo style={{ fontSize: '25px' }} />
+                </a>
+            )
+          }
         </Modal.Footer>
       </Modal>
         </>
