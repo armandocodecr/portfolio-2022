@@ -39,6 +39,7 @@ export const ProyectsSection = () => {
                                         link={project.link}
                                         github={project.github}
                                         technologys={project.technologys}
+                                        video={project.video}
                                     />
                                 </Grid>
                             ))
