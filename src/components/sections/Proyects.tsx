@@ -26,7 +26,7 @@ export const ProyectsSection = () => {
                     </Text>
                 </div>
 
-                    <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-sections'>
+                    <Grid.Container gap={2} justify='center' css={{ mt: 50 }} className='container-sections'>
                         {
                             projectList.map((project, index) => (
                                 <Grid key={index} xs={12} sm={6} md={4} css={{ position: 'relative' }}>
