@@ -105,17 +105,13 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
             </Grid>
           </Grid.Container>
         </Modal.Body>
-        <Modal.Footer justify='center'>
+        <Modal.Footer justify='center' style={{ gap: '20px' }}>
           
           <a href={github} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
-            <Button auto css={{ fontSize: 25, background: '#F1502F' }}>
-              <FaGithub />
-            </Button>
+              <FaGithub style={{ fontSize: '25px', color: '#F1502F' }}  />
           </a>
           <a  href={link} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
-            <Button auto color='success' css={{ fontSize: 25 }}>
-                <FaEye />
-            </Button>
+                <FaEye style={{ fontSize: '25px' }} />
           </a>
         </Modal.Footer>
       </Modal>
