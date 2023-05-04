@@ -67,36 +67,36 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
         </Card>
         <Modal
             scroll
-            width="600px"
-            css={{ width: '90%', padding: 5, margin: '0 auto' }}
+            width="800px"
+            css={{ width: '90%', padding: 5, margin: '0 auto', height: '550px' }}
             aria-labelledby="modal-title"
             aria-describedby="modal-description"
             {...bindings}
         >
         <Modal.Header>
-          <Text id="modal-title" weight='bold' css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%" }} size={18}>
+          <Text id="modal-title" weight='bold' css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%" }} size={30}>
             {title}
           </Text>
           <FaWindowClose onClick={ () => setVisible(false) } id='btn_close' />
         </Modal.Header>
         <Modal.Body id='container-modal-body'>
-          <Text weight='bold'>Descripción breve del proyecto:</Text>
-          <Text id="modal-description">
+          <Text weight='bold' size={25}>Descripción breve del proyecto:</Text>
+          <Text id="modal-description" size={20}>
             {description}
           </Text>
           <Grid.Container gap={2} >
             <Grid xs={12} sm={4} className='technologys-list'>
-                <Text weight='medium' h5>Tecnologías usadas:</Text>
+                <Text weight='medium' size={20} h5>Tecnologías usadas:</Text>
                     {
                         technologys.map( (technology, index) => (
-                            <Text key={index}>{technology}</Text>
+                            <Text size={20} key={index}>{technology}</Text>
                         ))
                     }
             </Grid>
             <Grid xs={12} sm={8} css={{ position: 'relative', mt: 5 }}>
             <Image
-                width={320}
-                height={180} 
+                width={350}
+                height={300} 
                 css={{ borderRadius: 7 }} 
                 src={image}
                 alt="Default Image"
