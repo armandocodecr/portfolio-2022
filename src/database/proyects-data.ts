@@ -10,7 +10,7 @@ export interface seedProyects {
     video?: string
 }
 
-type ValidTechnologys = 'JavaScript'|'NodeJS'|'React'|'NextJS'|'CSS'|'Sass'|'MongoDB'|'HTML'|'TypeScript'|'MaterialUI'|'NextUI';
+type ValidTechnologys = 'JavaScript'|'NodeJS'|'React'|'NextJS'|'CSS'|'Sass'|'MongoDB'|'HTML'|'TypeScript'|'MaterialUI'|'NextUI'|'TailwindCSS'|'Express'|'Socket';
 
 interface SeedData {
     proyects: seedProyects[]
@@ -25,7 +25,7 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300262/portfolio-projects/l0vcavflx2rs0tyhfe62.png',
             link: 'https://movie-app-2022-cm.vercel.app/',
             github: 'https://github.com/Armandocm19/movie-app',
-            technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'NextUI'],
+            technologys: ['NextJS', 'TypeScript', 'NextUI'],
         },
         {
             title: 'PokemonAppStatic',
@@ -33,15 +33,16 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300258/portfolio-projects/wmog7dmfdccjf3g6taoi.png',
             link: 'https://pokemonappstatic.vercel.app/',
             github: 'https://github.com/Armandocm19/PokemoApi',
-            technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML']
+            technologys: ['NextJS', 'TypeScript']
         },
         {
-            title: 'Galería Web',
-            description: 'Este proyecto es una galería de imágenes de los Parques Nacionales en unos de mis países favoritos.',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300264/portfolio-projects/z7sxcoi8ugdmhh9uj6dl.png',
-            link: 'https://galeria-web.vercel.app/',
-            github: 'https://github.com/Armandocm19/GaleriaWeb',
-            technologys: ['JavaScript', 'CSS', 'HTML']
+            title: 'Kapool (Clon de Kahoot)',
+            description: 'Este proyecto podrás crear tus partidas y conectarte en tiempo real con otros jugadores para jugar tus partida. Cuenta con un sistema de puntaje y clasificación, y diseño atractivo',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1684262039/portfolio-projects/brbttmwqenvsocinibvn.png',
+            link: 'none',
+            github: 'https://github.com/Armandocm19/kapool-react-frontend',
+            technologys: ['React', 'TailwindCSS', 'MongoDB', 'NodeJS', 'Express', 'Socket'],
+            video: 'https://youtu.be/L6ReeZws3pY'
         },
         {
             title: 'Teslo-Shop (Clon)',
@@ -49,7 +50,7 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300257/portfolio-projects/gjbzhiyysftcamkhyju7.png',
             link: 'https://next-teslo-shop-2023.vercel.app/',
             github: 'https://github.com/Armandocm19/next-teslo-shop',
-            technologys: ['NextJS','TypeScript', 'CSS', 'HTML', 'MongoDB'],
+            technologys: ['NextJS','TypeScript', 'MongoDB'],
             video: 'https://www.youtube.com/watch?v=XbZQ1iZYjNA'
         },
         {
@@ -58,7 +59,7 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300263/portfolio-projects/bvuta2hbfdbu9zo7fw92.png',
             link: 'https://helados-artesanales-sm.vercel.app/',
             github: 'https://github.com/Armandocm19/helados-artesanales',
-            technologys: ['NextJS', 'TypeScript', 'CSS', 'HTML', 'MongoDB']
+            technologys: ['NextJS', 'TypeScript', 'MongoDB']
         },
         {
             title: 'TRES EN RAYA',
@@ -66,7 +67,7 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675565063/portfolio-projects/rjve54majth1g8oyugos.png',
             link: 'https://juego-tres-en-raya.vercel.app/',
             github: 'https://github.com/Armandocm19/juego-tres-en-raya',
-            technologys: ['React', 'TypeScript', 'CSS', 'HTML']
+            technologys: ['React', 'TypeScript']
         },
     ]
 

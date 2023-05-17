@@ -110,9 +110,13 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
           <a href={github} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
               <FaGithub style={{ fontSize: '25px', color: '#F1502F' }}  />
           </a>
-          <a  href={link} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
-                <FaEye style={{ fontSize: '25px' }} />
-          </a>
+          {
+            link !== 'none' && (
+                <a  href={link} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
+                    <FaEye style={{ fontSize: '25px' }} />
+                </a>
+            )
+          }
           {
             video && (
                 <a  href={video} target='_blank' style={{ color: '#ffffff', display: 'flex', justifyContent: 'center' }} rel="noreferrer">
