@@ -42,7 +42,7 @@ export const proyectsData: SeedData = {
             link: 'none',
             github: 'https://github.com/Armandocm19/kapool-react-frontend',
             technologys: ['React', 'TailwindCSS', 'MongoDB', 'NodeJS', 'Express', 'Socket'],
-            video: 'https://youtu.be/L6ReeZws3pY'
+            video: 'https://www.youtube.com/watch?v=_tMWN6hUAOo'
         },
         {
             title: 'Teslo-Shop (Clon)',
