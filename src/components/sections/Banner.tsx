@@ -23,6 +23,7 @@ export const BannerSection = () => {
                     
                     <Text
                         h2
+                        id="h2_banner_secund"
                         weight="bold"
                     >
                     &nbsp;soy
