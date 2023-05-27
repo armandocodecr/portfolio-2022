@@ -22,7 +22,7 @@ export const AboutSection = () => {
                     </Text>
                 </div>
 
-                <Grid.Container gap={2} justify='center' css={{ mt: 100 }} className='container-sections'>
+                <Grid.Container justify='center' css={{ mt: 100 }} className='container-sections'>
 
                     <Grid xs={12} sm={6} css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Text >
@@ -35,8 +35,8 @@ export const AboutSection = () => {
 
                     <Grid xs={12} sm={6}>
                     <Image
-                        width={320}
-                        height={400}  
+                        width={350}
+                        height={450}  
                         src={foto}
                         alt="Default Image"
                         objectFit="cover"
