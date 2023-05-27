@@ -394,15 +394,15 @@ body::-webkit-scrollbar-thumb{
     }
 
     .container-home h1{
-        font-size: 25px;
+        font-size: 40px;
      }
 
     .container-home h2{
-        font-size: 20px;
+        font-size: 30px;
      }
 
      .container-home span{
-        font-size: 12px;
+        font-size: 16px;
      }
 
      .scrollContainer .scrollItem{
@@ -411,6 +411,7 @@ body::-webkit-scrollbar-thumb{
     }
 
     #btn-download-cv{
+        height: 45px;
         width: 40%;
         margin: 0 auto;
         padding: 5px;
@@ -467,22 +468,42 @@ body::-webkit-scrollbar-thumb{
     }
 
     /* Componente Banner */
+    .container-home{
+        height: 80ch;
+        padding: 0 55px;
+    }
+
+    .presentacion{
+        height: 100%;
+        margin-top: 80px;
+        text-align: left;
+    }
 
     .container-home h1{
-        font-size: 20px;
+        font-size: 60px;
      }
 
     .container-home h2{
-        font-size: 15px;
+        font-size: 50px;
+     }
+
+     #h2_banner_secund {
+        font-size: 40px; 
      }
 
      .container-home span{
-        font-size: 10px;
+        font-size: 15px;
      }
 
      #btn-download-cv{
-        padding: 4px;
-        font-size: 10px !important;
+        position: absolute;
+        /* margin-top: 100px !important; */
+        padding: 15px;
+        font-size: 16px !important;
+     }
+
+     .scrollContainer{
+        display: none;
      }
 
      /* Componente About */
