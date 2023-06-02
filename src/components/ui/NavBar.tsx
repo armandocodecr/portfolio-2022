@@ -22,7 +22,7 @@ export const NavBar = () => {
       <>
 
           <div>
-            <a href='https://github.com/Armandocm19' target='_blank' rel="noreferrer">
+            <a href='https://github.com/armandocodecr' target='_blank' rel="noreferrer">
               <FaGithub className='iconos-navbar' id='git' />
             </a>
             <a href='https://www.linkedin.com/in/armando-murillo/' target='_blank' rel="noreferrer">
