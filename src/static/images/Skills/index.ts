@@ -7,6 +7,8 @@
  import sql from './sql.png'
  import typescript from './typescript.png'
  import git from './git.png'
+ import GraphQL from './GraphQL.png'
+ import NestJS from './NestJS.png'
 
  const SkillsImages = [
     {link: docker, title: 'Docker'},
@@ -18,6 +20,8 @@
     {link: sql, title: 'SQL'},
     {link: typescript, title: 'TypeScript'},
     {link: git, title: 'Git'},
+    {link: GraphQL, title: 'GraphQL'},
+    {link: NestJS, title: 'NestJS'},
  ]
 
  export default SkillsImages;
