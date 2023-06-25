@@ -26,10 +26,11 @@ export const AboutSection = () => {
 
                     <Grid xs={12} sm={6} css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                         <Text >
-                            21 años. Soy de <strong>Costa Rica</strong>. Cursando último año en Ingeniería de Informática
-                            en la Universidad Hispanoamericana. Expandiendo mi conocimiento en este mundo.
-                            Apasionado por la tecnología, la programación y el diseño. Nunca conformandome con lo que me aporta la Universidad siendo una persona
-                            autodidacta en busca de especializarme en <em>Desarrollo web</em>.👨‍💻
+                        👨‍💻 21 años. Soy de <strong>Costa Rica</strong>. Estoy apunto de terminar mi carrera en Ingeniería de Informática
+                            de la Universidad Hispanoamericana. Nunca me he conformado con lo que me aporta la Universidad siendo una persona
+                            autodidacta para especializarme en el área de <em>Desarrollo web</em>. Tengo experiencia como desarollador, pero 
+                            todavía no e tenido la ocasión de trabajar en ningún sitio. Por lo que, actualmente me encuentro en busca de una 
+                            oportunidad laboral.
                         </Text>
                     </Grid>
 
