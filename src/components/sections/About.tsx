@@ -28,7 +28,7 @@ export const AboutSection = () => {
                         <Text >
                         👨‍💻 21 años. Soy de <strong>Costa Rica</strong>. Estoy apunto de terminar mi carrera en Ingeniería de Informática
                             de la Universidad Hispanoamericana. Nunca me he conformado con lo que me aporta la Universidad siendo una persona
-                            autodidacta para especializarme en el área de <em>Desarrollo web</em>. Tengo experiencia como desarollador, pero 
+                            autodidacta para especializarme en el área de <em>Desarrollo web</em>. Tengo experiencia como desarrollador, pero 
                             todavía no e tenido la ocasión de trabajar en ningún sitio. Por lo que, actualmente me encuentro en busca de una 
                             oportunidad laboral.
                         </Text>
