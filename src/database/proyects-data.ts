@@ -69,6 +69,14 @@ export const proyectsData: SeedData = {
             github: 'https://github.com/Armandocm19/juego-tres-en-raya',
             technologys: ['React', 'TypeScript']
         },
+        {
+            title: 'GitHub Cards',
+            description: 'Este proyecto consiste en que al colocar tu nombre de usuario de GitHub, puedas visualizar tus "stats" desde una tarjeta con un diseño agradable y con un bonito efecto 3D. Una de las principales funcionalidades de este proyecto es que las personas puedan descargar su tarjeta de Github y así usarla como una carta de presentación de su perfil. 👨‍💻',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1688055012/portfolio-projects/fn4kxrz7lqzebxbilvlp.png',
+            link: 'https://devfinder-github-cards.vercel.app/',
+            github: 'https://github.com/armandocodecr/Devfinder-GithhubCards',
+            technologys: ['NextJS', 'TailwindCSS']
+        },
     ]
 
 }
