@@ -6,7 +6,7 @@ export const ContactSection = () => {
 
   return (
     <>
-      <section className="container-contact containers" id="contact">
+      <section className="container-contact containers" id="referents">
         <hr />
         <div className="text-section">
           <Text
