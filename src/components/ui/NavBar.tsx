@@ -4,7 +4,6 @@ import { useLocation } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaTwitter, FaEye, FaTwitch } from 'react-icons/fa';
 
 import './Styles.css'
-//import pdf from './download/Curriculum.pdf'
 import BurgenButton from './BurgenButton';
 
 export const NavBar = () => {
@@ -14,7 +13,6 @@ export const NavBar = () => {
   const [Clicked, setClicked] = useState(false);
 
   const handlerClick = () => {
-    //cuando está true lo pasa a false, y viceversa
     setClicked(!Clicked)
   }
 
@@ -40,7 +38,7 @@ export const NavBar = () => {
             <a href="#about" id={ hash === '#about' ? 'selected' : '' } onClick={handlerClick} rel="noreferrer" >Sobre mi</a>
             <a href="#projects" id={ hash === '#projects' ? 'selected' : '' } onClick={handlerClick} rel="noreferrer" >Proyectos</a>
             <a href="#skills" id={ hash === '#skills' ? 'selected' : '' } onClick={handlerClick} rel="noreferrer" >Habilidades</a>
-            <a href="#contact" id={ hash === '#contact' ? 'selected' : '' } onClick={handlerClick} rel="noreferrer" >Contáctame</a>
+            <a href="#referents" id={ hash === '#referents' ? 'selected' : '' } onClick={handlerClick} rel="noreferrer" >Referentes</a>
             <a href="https://blog-armandocode.vercel.app/" id='btn-blog' target='_blank' rel="noreferrer" ><FaEye />Mi Blog</a>
           </div>
 
