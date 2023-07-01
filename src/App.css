@@ -240,27 +240,164 @@ body::-webkit-scrollbar-thumb{
 
   /* Componente de Contact */
 
+  .container-cards-referents{
+    padding: 80px 0 100px 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
+    );
+  }
 
-  .container-contact .Input{
+
+  .myCard {
+    background-color: transparent;
+    width: 200px;
+    height: 254px;
+    perspective: 1000px;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .innerCard {
     position: relative;
     width: 100%;
-    height: 5vh;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
   }
 
-  #contact form{
-    width: 100%;
+  .frontSide{
+    position: absolute;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+    font-weight: 700;
   }
 
-  .container-contact label{
-    margin-top: 30px !important;
+  .frontSide p {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-radius: 1rem;
+
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .myCard:hover .innerCard {
+    transform: rotateY(180deg);
+  }
+  
+  .backSide {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+    font-weight: 700;
   }
 
-  .container-contact button{
-    margin: 0 auto;
-    margin-top: 110px;
+  .backSide > div {
+    display: flex;
+    gap: 20px;
+  }
+
+  .backSide > div a{
+    font-size: 25px;
+  }
+  
+  .carlos,
+  .carlos::before {
+    background: 
+    url('./static/images/Referents/carlos.jpg') 
+    no-repeat 
+    center;
+    background-size: cover;
+  }
+
+  .goncy,
+  .goncy::before {
+    background: 
+    url('./static/images/Referents/goncy.jpg')
+    no-repeat 
+    center;
+    background-size: cover;
+  }
+
+  .alan,
+  .alan::before {
+    background: 
+    url('./static/images/Referents/alan.png')
+    no-repeat 
+    center;
+    background-size: cover;
+  }
+  
+  .backSide {
+    transform: rotateY(180deg);
+  }
+
+  .backSide .title{
+    font-size: 1em;
+  }
+  
+  .frontSide::before,
+  .backSide::before {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '';
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 1em;
+    filter: blur(20px);
+    animation: animate 5s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      opacity: 0.3;
+    }
+  
+    80% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0.3;
+    }
   }
 
 
@@ -359,6 +496,14 @@ body::-webkit-scrollbar-thumb{
         font-size: 20px;
     }
 
+    /* Componente Contact */
+
+    .container-cards-referents{
+      justify-content: center;
+      flex-direction: column;
+      gap: 50px;
+    }
+
 }
 
 
@@ -386,6 +531,16 @@ body::-webkit-scrollbar-thumb{
 
 @media screen and ( max-width: 620px ) {
 
+    /* Componente Contact */
+
+    .container-cards-referents{
+      padding: 40px 20px 100px 20px;
+    }
+
+    .text-section > h2 {
+      font-size: 15px;
+    }
+    
     /* Componente Banner */
 
     .container-home{
@@ -450,13 +605,7 @@ body::-webkit-scrollbar-thumb{
 
     /* Componente Contact */
 
-    #contact #container-about-buttons{
-        margin-top: 20px;
-    }
 
-    #contact #animation-contact{
-        width: 100% !important;
-    }
 
 
 }
@@ -525,9 +674,5 @@ body::-webkit-scrollbar-thumb{
     }
     
     /* Componente Contact */
-
-    #contact button{
-        font-size: 17px;
-    }
 
 }
