@@ -212,9 +212,12 @@ nav img{
 @media screen and ( max-width: 530px ) {
 
   footer p{
-    font-size: 12px;
+    font-size: 14px;
   }
 
+  footer .container-icons-footer svg{
+    font-size: 20px;
+  }
 }
 
 @media screen and ( max-width: 400px ) {
@@ -232,7 +235,7 @@ nav img{
   /* Componente Footer */
 
   footer p{
-    font-size: 9px;
+    font-size: 12px;
   }
 
   footer .iconos-navbar{
