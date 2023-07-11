@@ -13,13 +13,13 @@ export const Footer = () => {
               Web developer Armando Cortés Murillo.&nbsp;{date}
           </Text>
           <div className="container-icons-footer">
-          <a href='https://github.com/Armandocm19' target='_blank' rel="noreferrer">
+          <a href='https://github.com/armandocodecr' target='_blank' rel="noreferrer">
             <FaGithub className='iconos-navbar' id='git' />
           </a>
-          <a href='https://www.linkedin.com/in/armando-murillo/' target='_blank' rel="noreferrer">
+          <a href='https://www.linkedin.com/in/armandocode/' target='_blank' rel="noreferrer">
             <FaLinkedin className='iconos-navbar' id='linkedin' />
           </a>
-          <a href='https://twitter.com/CodeArmando' target='_blank' rel="noreferrer">
+          <a href='https://twitter.com/Armando_Code' target='_blank' rel="noreferrer">
             <FaTwitter className='iconos-navbar' id='twitter' />
           </a>
         </div>
