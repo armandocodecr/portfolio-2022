@@ -79,7 +79,7 @@ export const ProyectCard = ( {projectPosition, title, description, image, link, 
           </Text>
           <FaWindowClose onClick={ () => setVisible(false) } id='btn_close' />
         </Modal.Header>
-        <Modal.Body id='container-modal-body'>
+        <Modal.Body id='container-modal-body' className='ScrollCards'>
           <Text weight='bold' size={25}>Descripción breve del proyecto:</Text>
           <Text id="modal-description" size={20}>
             {description}
