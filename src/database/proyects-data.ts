@@ -10,7 +10,8 @@ export interface seedProyects {
     video?: string
 }
 
-type ValidTechnologys = 'JavaScript'|'NodeJS'|'React'|'NextJS'|'CSS'|'Sass'|'MongoDB'|'HTML'|'TypeScript'|'MaterialUI'|'NextUI'|'TailwindCSS'|'Express'|'Socket';
+type ValidTechnologys = 'JavaScript'|'NodeJS'|'React'|'NextJS'|'CSS'|'Sass'|'MongoDB'
+|'HTML'|'TypeScript'|'MaterialUI'|'NextUI'|'TailwindCSS'|'Express'|'Socket'|'GraphQL'|'NestJS'|'TypeORM'|'Docker';
 
 interface SeedData {
     proyects: seedProyects[]
@@ -76,6 +77,14 @@ export const proyectsData: SeedData = {
             link: 'https://devfinder-github-cards.vercel.app/',
             github: 'https://github.com/armandocodecr/Devfinder-GithhubCards',
             technologys: ['NextJS', 'TailwindCSS']
+        },
+        {
+            title: 'Shopping List',
+            description: 'Está aplicacion permite hacer un listado de compras. Contiene un área de autenticación, listado de items, listas, y un área de estadísticas que te muestra por medio de gráficos los items y categorías más usadas y además un gráfico que te mostrará tus listas creadas en una línea de tiempo. 👨‍💻',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1691785152/portfolio-projects/Shoppinglist.png',
+            link: 'https://shopping-list-2023.vercel.app/',
+            github: 'https://github.com/armandocodecr/ShoppingList',
+            technologys: ['NextJS', 'TailwindCSS', 'GraphQL', 'NestJS','Docker','TypeScript']
         },
     ]
 
