@@ -55,14 +55,6 @@ export const proyectsData: SeedData = {
             video: 'https://www.youtube.com/watch?v=XbZQ1iZYjNA'
         },
         {
-            title: 'Helados Artesanales',
-            description: 'Esta es una web para el emprendimiento de un cliente, donde se pueden hacer órdenes, y además permite tener un control del inventario. NOTA: Si ingresas a la página habrán ciertas rutas que darán error 504. No tengo presupuesto para pagar un dominio, y los dominios gratis no tienen la funcionalidad de correr Serverless function, por lo que los componentes que hagan uso de estas, darán error 504. Si el proyecto se corre localmente todo irá perfectamente. 👨‍💻',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300263/portfolio-projects/bvuta2hbfdbu9zo7fw92.png',
-            link: 'https://helados-artesanales-sm.vercel.app/',
-            github: 'https://github.com/Armandocm19/helados-artesanales',
-            technologys: ['NextJS', 'TypeScript', 'MongoDB']
-        },
-        {
             title: 'TRES EN RAYA',
             description: 'En este proyecto construyo el famoso juego "Tres en Raya", el cual tiene una interfaz sencilla, pero tiene una lógica interesante. Esto por el manejo del estado que tiene para detectar cuando el jugador ganó, perdió, o empató. Además de que está programado para que el usuario no gane fácilmente. 👀',
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675565063/portfolio-projects/rjve54majth1g8oyugos.png',
