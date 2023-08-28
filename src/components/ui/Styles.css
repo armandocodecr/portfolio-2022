@@ -143,7 +143,7 @@ nav img{
     padding: 1rem;
     background: #00000066;
     backdrop-filter: saturate(180%) blur(10px);
-    border-top: 1px solid #003f60;
+    border-top: 1px solid #494949;
   }
 
   footer .iconos-navbar{
@@ -155,6 +155,10 @@ nav img{
     display: flex;
     justify-content: center;
 }
+
+  #footer-text span{
+    color: rgb(255, 197, 77);
+  }
 
 #btn-blog{
   display: flex;
