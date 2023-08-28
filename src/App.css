@@ -478,6 +478,10 @@ body::-webkit-scrollbar-thumb{
         font-size: 45px;
      }
 
+    .container-home h1 > span{
+      font-size: 45px;
+    } 
+
     .container-home h2{
         font-size: 30px;
      }
@@ -590,6 +594,10 @@ body::-webkit-scrollbar-thumb{
         font-size: 40px;
      }
 
+    .container-home h1 > span{
+      font-size: 40px;
+    } 
+
     .container-home h2{
         font-size: 30px;
      }
@@ -669,6 +677,10 @@ body::-webkit-scrollbar-thumb{
     .container-home h1{
         font-size: 60px;
      }
+
+    .container-home h1 > span{
+      font-size: 60px;
+    } 
 
     .container-home h2{
         font-size: 50px;
