@@ -24,7 +24,11 @@ export const AboutSection = () => {
 
                 <Grid.Container justify='center' css={{ mt: 100 }} className='container-sections'>
 
-                    <Grid xs={12} sm={6} css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <Grid 
+                        xs={12} 
+                        sm={6} 
+                        css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}  
+                        data-aos="fade-right">
                         <Text >
                         👨‍💻 21 años. Soy de <strong>Costa Rica</strong>. Estoy apunto de terminar mi carrera en Ingeniería de Informática
                             de la Universidad Hispanoamericana. Nunca me he conformado con lo que me aporta la Universidad siendo una persona
@@ -34,7 +38,7 @@ export const AboutSection = () => {
                         </Text>
                     </Grid>
 
-                    <Grid xs={12} sm={6}>
+                    <Grid xs={12} sm={6} data-aos="fade-left">
                     <Image
                         width={350}
                         height={450}  

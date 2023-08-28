@@ -10,12 +10,9 @@ export const BannerSection = () => {
     return (
         <>
             <section className="container-home">
-                <div className="presentacion">
+                <div className="presentacion" data-aos="zoom-in-left">
                     <Text
                         h2
-                        css={{
-                        textGradient: "45deg, $blue600 -20%, $pink600 50%",
-                        }}
                         weight="bold"
                     >
                     Hola,
@@ -35,7 +32,7 @@ export const BannerSection = () => {
                         size={70}
                         weight="bold"
                     >
-                    Armando Cortés Murillo
+                    Armando <span>Cortés</span> Murillo
                     </Text>
 
                     <Typewriter

@@ -2,7 +2,7 @@ import { Text } from "@nextui-org/react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { referentsData } from '../../database/referents-data';
 
-export const ContactSection = () => {
+export const ReferentsSection = () => {
 
   return (
     <>
@@ -33,7 +33,7 @@ export const ContactSection = () => {
 
         <div className="container-cards-referents">
             {referentsData.map((referent) => (
-              <div className="myCard">
+              <div className="myCard" data-aos="flip-left" data-aos-easing="ease-out-cubic">
                 <div className="innerCard">
                   <div className={`frontSide ${referent.classForImage}`}>
                     <p className="title">{ referent.name }</p>

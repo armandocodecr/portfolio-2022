@@ -28,7 +28,7 @@ export const SkillsSection = () => {
                     {
                         SkillsImages.map( skill => (
                             <Grid key={skill.title} xs={12} sm={6} md={4} lg={3} xl={2} css={{ position: 'relative'}}>
-                                    <div className='images-skills'>
+                                    <div className='images-skills' data-aos="fade-up-left">
                                         <div>
                                             <Image src={skill.link} />
                                             <Text weight='bold' >{ skill.title }</Text>

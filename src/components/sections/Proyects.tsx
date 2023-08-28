@@ -26,10 +26,10 @@ export const ProyectsSection = () => {
                     </Text>
                 </div>
 
-                    <Grid.Container gap={2} justify='center' css={{ mt: 50 }} className='container-sections'>
+                    <Grid.Container gap={2} justify='center' css={{ mt: 50 }} className='container-sections' data-aos="fade-up">
                         {
                             projectList.map((project, index) => (
-                                <Grid key={index} xs={12} sm={6} md={4} css={{ position: 'relative' }}>
+                                <Grid key={index} xs={12} sm={6} md={4} css={{ position: 'relative' }} data-aos="zoom-in-left">
                                     <ProyectCard 
                                         key={index}
                                         projectPosition={index+1}

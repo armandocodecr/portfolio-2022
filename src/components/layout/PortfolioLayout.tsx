@@ -9,7 +9,7 @@ export const PortfolioLayout: FC<Props> = ({ children  }) => {
 
     return (
         <>
-            <nav>
+            <nav data-aos="fade-down">
                 <NavBar />
             </nav>
 
