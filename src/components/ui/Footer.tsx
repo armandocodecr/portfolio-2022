@@ -8,9 +8,8 @@ export const Footer = () => {
 
   return(
       <>
-          <Text color="secondary" weight='bold' 
-          css={{ textGradient: "45deg, $blue600 -20%, $pink600 50%",}}>
-              Web developer Armando Cortés Murillo.&nbsp;{date}
+          <Text id="footer-text" weight='bold' css={{ color: "#fff" }}>
+              Web developer <span>Armando Cortés Murillo</span>.&nbsp;{date}
           </Text>
           <div className="container-icons-footer">
           <a href='https://github.com/armandocodecr' target='_blank' rel="noreferrer">
