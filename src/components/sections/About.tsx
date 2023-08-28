@@ -8,7 +8,6 @@ export const AboutSection = () => {
     return (
         <>
             <section className="container-about containers" id="about">
-                <hr />
                 <div className="text-section">
                     <Text
                         h1

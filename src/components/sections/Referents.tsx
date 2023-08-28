@@ -7,7 +7,6 @@ export const ReferentsSection = () => {
   return (
     <>
       <section className="container-contact containers" id="referents">
-        <hr />
         <div className="text-section">
           <Text
             h1

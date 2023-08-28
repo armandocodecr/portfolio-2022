@@ -11,7 +11,6 @@ export const ProyectsSection = () => {
         <>
         
             <section className="container-proyects containers" id="projects">
-                <hr />
                 <div className="text-section">
 
                     <Text

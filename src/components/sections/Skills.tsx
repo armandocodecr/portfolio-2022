@@ -8,7 +8,6 @@ export const SkillsSection = () => {
         <>
         
             <section className="container-skills containers" id="skills">
-                <hr />
                 <div className="text-section">
 
                     <Text
