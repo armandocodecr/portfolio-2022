@@ -29,14 +29,6 @@ export const proyectsData: SeedData = {
             technologys: ['NextJS', 'TypeScript', 'NextUI'],
         },
         {
-            title: 'PokemonAppStatic',
-            description: 'Página estática que muestra un listado de pokemones, con algunas funcionalidades más.',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300258/portfolio-projects/wmog7dmfdccjf3g6taoi.png',
-            link: 'https://pokemonappstatic.vercel.app/',
-            github: 'https://github.com/Armandocm19/PokemoApi',
-            technologys: ['NextJS', 'TypeScript']
-        },
-        {
             title: 'Kapool (Clon de Kahoot)',
             description: 'Este proyecto podrás crear tus partidas y conectarte en tiempo real con otros jugadores para jugar tus partida. Cuenta con un sistema de puntaje y clasificación, y diseño atractivo',
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1684262039/portfolio-projects/brbttmwqenvsocinibvn.png',
@@ -44,6 +36,14 @@ export const proyectsData: SeedData = {
             github: 'https://github.com/Armandocm19/kapool-react-frontend',
             technologys: ['React', 'TailwindCSS', 'MongoDB', 'NodeJS', 'Express', 'Socket'],
             video: 'https://www.youtube.com/watch?v=_tMWN6hUAOo'
+        },
+        {
+            title: 'Shopping List',
+            description: 'Está aplicacion permite hacer un listado de compras. Contiene un área de autenticación, listado de items, listas, y un área de estadísticas que te muestra por medio de gráficos los items y categorías más usadas y además un gráfico que te mostrará tus listas creadas en una línea de tiempo. 👨‍💻',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1691785152/portfolio-projects/Shoppinglist.png',
+            link: 'https://shopping-list-2023.vercel.app/',
+            github: 'https://github.com/armandocodecr/ShoppingList',
+            technologys: ['NextJS', 'TailwindCSS', 'GraphQL', 'NestJS','Docker','TypeScript']
         },
         {
             title: 'Teslo-Shop (Clon)',
@@ -71,12 +71,12 @@ export const proyectsData: SeedData = {
             technologys: ['NextJS', 'TailwindCSS']
         },
         {
-            title: 'Shopping List',
-            description: 'Está aplicacion permite hacer un listado de compras. Contiene un área de autenticación, listado de items, listas, y un área de estadísticas que te muestra por medio de gráficos los items y categorías más usadas y además un gráfico que te mostrará tus listas creadas en una línea de tiempo. 👨‍💻',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1691785152/portfolio-projects/Shoppinglist.png',
-            link: 'https://shopping-list-2023.vercel.app/',
-            github: 'https://github.com/armandocodecr/ShoppingList',
-            technologys: ['NextJS', 'TailwindCSS', 'GraphQL', 'NestJS','Docker','TypeScript']
+            title: 'PokemonAppStatic',
+            description: 'Página estática que muestra un listado de pokemones, con algunas funcionalidades más.',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300258/portfolio-projects/wmog7dmfdccjf3g6taoi.png',
+            link: 'https://pokemonappstatic.vercel.app/',
+            github: 'https://github.com/Armandocm19/PokemoApi',
+            technologys: ['NextJS', 'TypeScript']
         },
     ]
 
