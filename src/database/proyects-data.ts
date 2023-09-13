@@ -43,7 +43,8 @@ export const proyectsData: SeedData = {
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1691785152/portfolio-projects/Shoppinglist.png',
             link: 'https://shopping-list-2023.vercel.app/',
             github: 'https://github.com/armandocodecr/ShoppingList',
-            technologys: ['NextJS', 'TailwindCSS', 'GraphQL', 'NestJS','Docker','TypeScript']
+            technologys: ['NextJS', 'TailwindCSS', 'GraphQL', 'NestJS','Docker','TypeScript'],
+            video: 'https://youtu.be/D9G8okA7qmQ'
         },
         {
             title: 'Teslo-Shop (Clon)',
