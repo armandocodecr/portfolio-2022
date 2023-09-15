@@ -32,7 +32,7 @@ export const proyectsData: SeedData = {
             title: 'Kapool (Clon de Kahoot)',
             description: 'Este proyecto podrás crear tus partidas y conectarte en tiempo real con otros jugadores para jugar tus partida. Cuenta con un sistema de puntaje y clasificación, y diseño atractivo',
             image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1684262039/portfolio-projects/brbttmwqenvsocinibvn.png',
-            link: 'none',
+            link: 'https://kapool-react-frontend.vercel.app/',
             github: 'https://github.com/Armandocm19/kapool-react-frontend',
             technologys: ['React', 'TailwindCSS', 'MongoDB', 'NodeJS', 'Express', 'Socket'],
             video: 'https://www.youtube.com/watch?v=_tMWN6hUAOo'
