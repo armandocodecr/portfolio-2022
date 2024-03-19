@@ -23,8 +23,8 @@ export const proyectsData: SeedData = {
         {
             title: 'MovieAPP',
             description: 'Listado de películas, donde puedes buscar y ver detalles de las mismas.',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300262/portfolio-projects/l0vcavflx2rs0tyhfe62.png',
-            link: 'https://movie-app-2022-cm.vercel.app/',
+            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1710636908/portfolio-projects/czcposhnk9ekytbktfkz.png',
+            link: 'https://movie-app-2024-cm.vercel.app/',
             github: 'https://github.com/Armandocm19/movie-app',
             technologys: ['NextJS', 'TypeScript', 'NextUI'],
         },
