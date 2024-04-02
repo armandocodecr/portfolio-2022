@@ -71,14 +71,6 @@ export const proyectsData: SeedData = {
             github: 'https://github.com/armandocodecr/Devfinder-GithhubCards',
             technologys: ['NextJS', 'TailwindCSS']
         },
-        {
-            title: 'PokemonAppStatic',
-            description: 'Página estática que muestra un listado de pokemones, con algunas funcionalidades más.',
-            image: 'https://res.cloudinary.com/dyuj1zglt/image/upload/v1675300258/portfolio-projects/wmog7dmfdccjf3g6taoi.png',
-            link: 'https://pokemonappstatic.vercel.app/',
-            github: 'https://github.com/Armandocm19/PokemoApi',
-            technologys: ['NextJS', 'TypeScript']
-        },
     ]
 
 }
