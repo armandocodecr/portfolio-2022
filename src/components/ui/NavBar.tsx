@@ -19,7 +19,7 @@ export const NavBar = () => {
   return (
       <>
 
-          <div>
+          <div className='flex'>
             <a href='https://github.com/armandocodecr' target='_blank' rel="noreferrer">
               <FaGithub className='iconos-navbar' id='git' />
             </a>

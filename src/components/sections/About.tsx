@@ -21,19 +21,25 @@ export const AboutSection = () => {
                     </Text>
                 </div>
 
-                <Grid.Container justify='center' css={{ mt: 100 }} className='container-sections'>
-
+                <Grid.Container justify='center' css={{ mt: 100 }} className='container-sections items-center'>
                     <Grid 
                         xs={12} 
                         sm={6} 
-                        css={{ position: 'relative', display: 'flex', justifyContent: 'center', alignItems: 'center' }}  
+                        className="relative flex flex-col justify-center items-center gap-5"  
                         data-aos="fade-right">
-                        <Text >
-                            👨‍💻 22 años. Soy de <strong>Costa Rica</strong>. Estoy apunto de terminar mi carrera en Ingeniería de Informática
-                            de la Universidad Hispanoamericana. Nunca me he conformado con lo que me aporta la Universidad siendo una persona
-                            autodidacta para especializarme en el área de <em>Desarrollo web</em>. Tengo experiencia como desarrollador, pero 
-                            todavía no e tenido la ocasión de trabajar en ningún sitio. Por lo que, actualmente me encuentro en busca de una 
-                            oportunidad laboral.
+                        <Text className="px-5">
+                            👨‍💻 22 años. Soy de <strong>Costa Rica</strong>. Desde que era pequeño la tecnología y los computadores
+                            siempre me han llamado la atención. Hoy en día, después de estar años preparandome, estoy viviendo mis primeras
+                            experiencias profesionales como <em className="text-yellow-400">Desarrollador de Software,</em>.
+                        </Text>
+                        <Text className="px-5">
+                            Personalmente, <p className="text-orange-400 inline">soy una persona al que le sastiface ser resoluctivo</p>. Lo cual hace que me genere mucha sastifacción
+                            ver cómo mis aplicaciones reducen la carga de trabajo de distintas áreas de la empresa a la cual trabajo actualmente.
+                        </Text>
+                        <Text className="px-5">
+                            Una de mis mayores virtudes es que soy una persona que <p className="text-blue-400 inline">siempre busca adaptarse a distintas situaciones o retos que se
+                            presenten</p>. Soy capáz de aprender y resolver lo que me proponga por mi propia cuenta, ya que para mi el aprendizaje constante
+                            es una de las capacidades más necesarias para crecer y ser valioso dentro de la industria del <em className="text-yellow-400">Desarrollador de Software.</em>
                         </Text>
                     </Grid>
 
@@ -44,6 +50,7 @@ export const AboutSection = () => {
                         src={foto}
                         alt="Default Image"
                         objectFit="cover"
+                        className="pt-10"
                     />
                     </Grid>
 

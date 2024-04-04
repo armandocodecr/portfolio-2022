@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     margin: 0;
     padding: 0;
@@ -7,8 +11,8 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(rgba(148, 148, 148, 0.3) 1px, transparent 1px);
-    background-size: 20px 20px;
+    /* background-image: radial-gradient(rgba(148, 148, 148, 0.3) 1px, transparent 1px);
+    background-size: 20px 20px; */
     font-family: 'Roboto Condensed', sans-serif !important;
 }
 
@@ -175,6 +179,20 @@ body::-webkit-scrollbar-thumb{
 
 .container-about .animation{
     width: 80%;
+}
+
+/* Experience */
+
+.container-cards-stack-experience{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(
+      100px,
+      1fr
+    )
+  );
 }
 
 
@@ -507,8 +525,6 @@ body::-webkit-scrollbar-thumb{
     
     .container-about p{
         text-align: center;
-        padding: 20px 0 50px 0;
-        margin: 0 auto;
         font-size: 20px;
     } 
    
