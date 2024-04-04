@@ -187,13 +187,13 @@ nav img{
       transition: 0.3s ease-in-out;
   }
 
-  /* @supports (-webkit-backdrop-filter: blur(10px) saturate(0%)) {
+  @supports (-webkit-backdrop-filter: blur(10px) saturate(0%)) {
     .btn-nav {
-      backdrop-filter: blur(10px) saturate(0%);
-      -webkit-backdrop-filter: blur(10px) saturate(0%);
-      background-color: rgba(7, 7, 7, 0.5);
+      backdrop-filter: blur(10px) saturate(0%) !important;
+      -webkit-backdrop-filter: blur(10px) saturate(0%) !important;
+      background-color: rgba(7, 7, 7, 0.5) !important;
     }
-  } */
+  }
 
   .btn-nav a{
     min-width: 150px;
