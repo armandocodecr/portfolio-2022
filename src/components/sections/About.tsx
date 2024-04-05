@@ -30,7 +30,7 @@ export const AboutSection = () => {
                         <Text className="px-5">
                             👨‍💻 22 años. Soy de <strong>Costa Rica</strong>. Desde que era pequeño la tecnología y los computadores
                             siempre me han llamado la atención. Hoy en día, después de estar años preparandome, estoy viviendo mis primeras
-                            experiencias profesionales como <em className="text-yellow-400">Desarrollador de Software,</em>.
+                            experiencias profesionales como <em className="text-yellow-400">Desarrollador de Software.</em>
                         </Text>
                         <Text className="px-5">
                             Personalmente, <p className="text-orange-400 inline">soy una persona al que le sastiface ser resoluctivo</p>. Lo cual hace que me genere mucha sastifacción
